@@ -15,6 +15,7 @@ public class IMDBDatabase {
 
     private static final String DELIMITER = "\t"; // Tab-separated values
     private static final int MIN_PARTS_LENGTH = 4; // Minimum number of fields per row
+    private static final int NUM_CAST_MEMBERS = 4;
 
     // General method to load movies from a file with custom row parsing
     private void loadMovies(String filePath, MovieParser parser, Map<String, Movie> movieMap) {
@@ -32,6 +33,7 @@ public class IMDBDatabase {
                 }
             }
         } catch (IOException | NumberFormatException e) {
+            System.err.println("Error: Failed to read from the file. Please check the file path.");
             e.printStackTrace();
         }
     }
@@ -66,7 +68,7 @@ public class IMDBDatabase {
             int year = Integer.parseInt(parts[2].trim());
             String director = parts[3].trim();
             List<String> cast = new ArrayList<>();
-            for (int i = 4; i < parts.length; i++) {
+            for (int i = NUM_CAST_MEMBERS; i < parts.length; i++) {
                 if (!parts[i].trim().isEmpty()) {
                     cast.add(parts[i].trim());
                 }
