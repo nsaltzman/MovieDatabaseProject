@@ -13,14 +13,17 @@ public class IMDBDatabase {
     private final Map<String, Movie> grossMovies = new HashMap<>();
     private final Map<String, Movie> castData = new HashMap<>();
 
+    private static final String DELIMITER = "\t"; // Tab-separated values
+    private static final int MIN_PARTS_LENGTH = 4; // Minimum number of fields per row
+
     // General method to load movies from a file with custom row parsing
     private void loadMovies(String filePath, MovieParser parser, Map<String, Movie> movieMap) {
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
             reader.readLine(); // Skip header line
             while ((line = reader.readLine()) != null) {
-                String[] parts = line.split("\t");
-                if (parts.length < 4) continue;
+                String[] parts = line.split(DELIMITER);
+                if (parts.length < MIN_PARTS_LENGTH) continue;
 
                 // Use the custom parser to create or update the movie
                 Movie movie = parser.parse(parts);
