@@ -111,7 +111,9 @@ public class IMDBQuerySystem {
             System.out.println("No movies found for director " + director);
         } else {
             System.out.println("Movies directed by " + director + ":");
-            movies.forEach(System.out::println);
+            for (Movie movie : movies) {
+                System.out.println(movie);
+            }
         }
     }
 }
