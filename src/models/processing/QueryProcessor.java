@@ -1,4 +1,7 @@
-package models;
+package models.processing;
+
+import models.movies.Movie;
+import models.database.IMDBDatabase;
 
 import java.util.*;
 

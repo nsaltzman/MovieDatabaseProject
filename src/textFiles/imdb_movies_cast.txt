@@ -269,7 +269,7 @@ Rank	Title	Year	Director	Cast 1	Cast 2	Cast 3	Cast 4	Cast 5
 268	Rush Hour 2	2001	Brett Ratner	Jackie Chan	Chris Tucker	John Lone	Ziyi Zhang	Roselyn Sanchez
 269	Saving Private Ryan	1998	Steven Spielberg	Tom Hanks	Tom Sizemore	Edward Burns	Barry Pepper	Adam Goldberg
 270	Scarface	1983	Brian De Palma	Al Pacino	Steven Bauer	Michelle Pfeiffer	Mary Elizabeth Mastrantonio	Robert Loggia
-271	Scary models.Movie	2000	Keenen Ivory Wayans	Carmen Electra	Dave Sheridan	Frank B. Moore	Giacomo Baessato	Kyle Graham
+271	Scary models.movies.Movie	2000	Keenen Ivory Wayans	Carmen Electra	Dave Sheridan	Frank B. Moore	Giacomo Baessato	Kyle Graham
 272	Schindler's List	1993	Steven Spielberg	Liam Neeson	Ben Kingsley	Ralph Fiennes	Caroline Goodall	Jonathan Sagall
 273	Scooby-Doo	2002	Raja Gosnell	Freddie Prinze Jr.	Sarah Michelle Gellar	Matthew Lillard	Linda Cardellini	Rowan Atkinson
 274	Se7en	1995	David Fincher	Morgan Freeman	Andrew Kevin Walker	Daniel Zacapa	Brad Pitt	Gwyneth Paltrow
@@ -397,7 +397,7 @@ Rank	Title	Year	Director	Cast 1	Cast 2	Cast 3	Cast 4	Cast 5
 396	The Shawshank Redemption	1994	Frank Darabont	Tim Robbins	Morgan Freeman	Bob Gunton	William Sadler	Clancy Brown
 397	The Shining	1980	Stanley Kubrick	Jack Nicholson	Shelley Duvall	Danny Lloyd	Scatman Crothers	Barry Nelson
 398	The Silence of the Lambs	1991	Jonathan Demme	Jodie Foster	Lawrence A. Bonney	Kasi Lemmons	Lawrence T. Wrentz	Scott Glenn
-399	The Simpsons models.Movie	2007	David Silverman	Dan Castellaneta	Julie Kavner	Nancy Cartwright	Yeardley Smith	Hank Azaria
+399	The Simpsons models.movies.Movie	2007	David Silverman	Dan Castellaneta	Julie Kavner	Nancy Cartwright	Yeardley Smith	Hank Azaria
 400	The Sixth Sense	1999	M. Night Shyamalan	Bruce Willis	Haley Joel Osment	Toni Collette	Olivia Williams	Trevor Morgan
 401	The Sound of Music	1965	Robert Wise	Julie Andrews	Christopher Plummer	Eleanor Parker	Richard Haydn	Peggy Wood
 402	The Sting	1973	George Roy Hill	Paul Newman	Robert Redford	Robert Shaw	Charles Durning	Ray Walston

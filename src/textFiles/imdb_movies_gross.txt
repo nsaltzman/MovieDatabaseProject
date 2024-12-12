@@ -158,7 +158,7 @@ Rank	Title	Year	USA Box Office
 157	Batman Forever	1995	184031112
 158	The Fugitive	1993	183875760
 159	Ocean's Eleven	2001	183405771
-160	The Simpsons models.Movie	2007	183132370
+160	The Simpsons models.movies.Movie	2007	183132370
 161	What Women Want	2000	182805123
 162	The Perfect Storm	2000	182618434
 163	Lincoln	2012	182204440
@@ -228,7 +228,7 @@ Rank	Title	Year	USA Box Office
 227	The Firm	1993	158348400
 228	The Longest Yard	2005	158115031
 229	X-Men	2000	157299717
-230	Scary models.Movie	2000	156997084
+230	Scary models.movies.Movie	2000	156997084
 231	Fatal Attraction	1987	156645693
 232	What Lies Beneath	2000	155370362
 233	The Mummy	1999	155247825

@@ -1,4 +1,6 @@
-package models;
+package models.database;
+
+import models.movies.Movie;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

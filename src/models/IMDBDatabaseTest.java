@@ -1,5 +1,8 @@
 package models;
 
+import models.database.IMDBDatabase;
+import models.movies.Movie;
+import models.processing.QueryProcessor;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

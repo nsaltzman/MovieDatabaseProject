@@ -1,9 +1,9 @@
-package models;
+package models.processing;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import models.IMDBDatabase;
-import models.QueryProcessor;
+
+import models.database.IMDBDatabase;
 
 
 public class IMDBQuerySystem {

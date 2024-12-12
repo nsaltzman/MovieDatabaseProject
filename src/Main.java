@@ -1,4 +1,4 @@
-import models.IMDBQuerySystem;
+import models.processing.IMDBQuerySystem;
 
 public class Main {
     public static void main(String[] args) {
