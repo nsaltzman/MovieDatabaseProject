@@ -30,9 +30,11 @@ public class Movie {
     public String getTitle(){
         return title;
     }
+
     public int getYear() {
         return year;
     }
+
     public List<String> getCast(){
         return cast;
     }
