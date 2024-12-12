@@ -1,9 +1,11 @@
 package models.processing;
 
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
 
 import models.database.IMDBDatabase;
+import models.movies.Movie;
 
 
 public class IMDBQuerySystem {
@@ -61,7 +63,7 @@ public class IMDBQuerySystem {
     }
 
     private void handleUniqueDirectors() {
-        var directors = queryProcessor.getAllDirectors();
+        List<String> directors = queryProcessor.getAllDirectors();
         System.out.println("Unique Directors:");
         for (String director : directors) {
             System.out.println(director);
@@ -71,7 +73,7 @@ public class IMDBQuerySystem {
     private void handleTopDirectors(Scanner scanner) {
         System.out.print("Enter the number of top directors to display: ");
         int n = scanner.nextInt();
-        var topDirectors = queryProcessor.getTopDirectors(n);
+        List<String> topDirectors = queryProcessor.getTopDirectors(n);
         System.out.println("Top " + n + " Directors:");
         for (String director : topDirectors) {
             System.out.println(director);
@@ -104,7 +106,7 @@ public class IMDBQuerySystem {
     private void handleMoviesByDirector(Scanner scanner) {
         System.out.print("Enter the director's name: ");
         String director = scanner.nextLine();
-        var movies = queryProcessor.getMoviesByDirector(director);
+        List<Movie> movies = queryProcessor.getMoviesByDirector(director);
         if (movies.isEmpty()) {
             System.out.println("No movies found for director " + director);
         } else {
