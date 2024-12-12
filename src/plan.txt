@@ -1,0 +1,29 @@
+models.Movie Class:
+- Attributes: title, year, director, cast, rating, boxOffice.
+- Methods: Getters, setters, toString.
+
+IMDBDatabase Class:
+- Manages the collection of movies.
+- Stores data in structures (e.g., Map<String, models.Movie>).
+Methods:
+- loadTopRatedMovies(String filePath): Parses top-rated movies.
+- loadGrossMovies(String filePath): Parses highest-grossing movies.
+- loadCastData(String filePath): Parses cast and director data.
+
+QueryProcessor Class:
+- Handles user queries.
+Methods:
+- getTotalEarningsByYear(int year): Computes total earnings for a year.
+- getAllDirectors(): Returns a unique, sorted list of directors.
+- getTopDirectors(int n): Returns the top N directors by movie count.
+- getMovieDetailsByRank(int rank, String type): Retrieves movie details by rank (type can be rating or gross).
+
+
+Main Class:
+- Provides the command-line interface.
+- Accepts user inputs, invokes QueryProcessor.
+
+
+JUnit Tests:
+- Test cases for each query.
+- Test data parsing and edge cases.
