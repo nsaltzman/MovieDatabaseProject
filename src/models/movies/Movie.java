@@ -31,7 +31,7 @@ public class Movie {
         return title;
     }
 
-    public int getYear() {
+    public Integer getYear() {
         return year;
     }
 
